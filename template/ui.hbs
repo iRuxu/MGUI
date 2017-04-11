@@ -1,0 +1,159 @@
+{{import "module/head"}}
+{{import "module/header"}}
+
+<div class="m-sidebar">
+	<ul class="m-sdlist">
+		<li><a href="#ui-blank" title="透明占位图"><img style="width:20px;" src="{{global.__img}}icon/ie.svg" alt=""></a></li>
+		<li><a href="#ui-alpha" title="半透明黑色背景图"><img style="width:20px;" src="{{global.__img}}icon/mask2.svg" alt=""></a></li>
+		<li><a href="" title="输入框"><img style="width:20px;"  src="{{global.__img}}icon/input.svg" alt=""></a></li>
+		<li><a href="" title="按钮"><img style="width:20px;"  src="{{global.__img}}icon/button.svg" alt=""></a></li>
+		<li><a href="" title="表格"><img style="width:20px;"  src="{{global.__img}}icon/table2.svg" alt=""></a></li>
+	</ul>
+	<div class="m-usage">
+		<code>@import "@{mgui}/ui.less";</code>
+		<p class="m-tips">通用元件、表单重绘</p>
+
+		<div class="m-guide m-usage-sub">
+			<h3><i></i>使用指南</h3>
+			<p>将对应html元素添加指定的类名，则获得对应的效果。</p>
+			<input class="u-code" type="text" value='<div class="mg-al-b80">mask</div>'>
+			<p>自该元素将拥有80%黑色半透明背景图平铺的样式。</p>
+		</div>
+		<div class="m-changelog m-usage-sub">
+			<h3><i></i>Change Log</h3>
+			<p><em>2017.4.11</em>统一命名规范修订</p>
+			<p><em>2017.1.20</em>新增透明/半透明等IE兼容元件、角标等</p>
+		</div>
+	</div>
+</div>
+<div class="m-content">
+	<div class="m-ex" id="ui-blank">
+		<div class="m-title">
+			<h2>透明占位图</h2>
+			<span>IE scroll兼容用透明背景等</span>
+		</div>
+		<table class="m-table m-table-ui-ts">
+			<tr>
+				<th>类名</th>
+				<th>预览</th>
+				<th>描述</th>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-blank</b></td>
+				<td><i class="u-blank"></i></td>
+				<td><span>用于PC端处理IE scroll等bug或占位</span></td>
+			</tr>
+		</table>
+	</div>
+	<div class="m-ex" id="ui-alpha">
+		<div class="m-title">
+			<h2>半透明</h2>
+			<span>半透明遮罩层应用，处理IE半透明兼容</span>
+		</div>
+		<table class="m-table m-table-ui-ts">
+			<tr>
+				<th>类名</th>
+				<th>预览</th>
+				<th>透明度</th>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b90</b></td>
+				<td><i class="mg-al-b90"></i></td>
+				<td><span>黑色透明度90%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b80</b></td>
+				<td><i class="mg-al-b80"></i></td>
+				<td><span>黑色透明度80%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b70</b></td>
+				<td><i class="mg-al-b70"></i></td>
+				<td><span>黑色透明度70%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b60</b></td>
+				<td><i class="mg-al-b60"></i></td>
+				<td><span>黑色透明度60%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b50</b></td>
+				<td><i class="mg-al-b50"></i></td>
+				<td><span>黑色透明度50%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b40</b></td>
+				<td><i class="mg-al-b40"></i></td>
+				<td><span>黑色透明度40%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b30</b></td>
+				<td><i class="mg-al-b30"></i></td>
+				<td><span>黑色透明度30%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b20</b></td>
+				<td><i class="mg-al-b20"></i></td>
+				<td><span>黑色透明度20%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-b10</b></td>
+				<td><i class="mg-al-b10"></i></td>
+				<td><span>黑色透明度10%</span></td>
+			</tr>
+		</table>
+		<table class="m-table m-table-ui-ts">
+			<tr>
+				<th>类名</th>
+				<th>预览</th>
+				<th>透明度</th>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w90</b></td>
+				<td><i class="mg-al-w90"></i></td>
+				<td><span>白色透明度90%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w80</b></td>
+				<td><i class="mg-al-w80"></i></td>
+				<td><span>白色透明度80%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w70</b></td>
+				<td><i class="mg-al-w70"></i></td>
+				<td><span>白色透明度70%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w60</b></td>
+				<td><i class="mg-al-w60"></i></td>
+				<td><span>白色透明度60%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w50</b></td>
+				<td><i class="mg-al-w50"></i></td>
+				<td><span>白色透明度50%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w40</b></td>
+				<td><i class="mg-al-w40"></i></td>
+				<td><span>白色透明度40%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w30</b></td>
+				<td><i class="mg-al-w30"></i></td>
+				<td><span>白色透明度30%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w20</b></td>
+				<td><i class="mg-al-w20"></i></td>
+				<td><span>白色透明度20%</span></td>
+			</tr>
+			<tr>
+				<td><b class="u-class">.mg-al-w10</b></td>
+				<td><i class="mg-al-w10"></i></td>
+				<td><span>白色透明度10%</span></td>
+			</tr>
+		</table>
+	</div>
+</div>
+{{import "module/footer"}}

@@ -1,0 +1,64 @@
+<div class="m-top">
+	<div class="m-rainbow"></div>
+	<div class="m-header">
+		<h1 class="m-logo">
+			<a class="u-name" href="./index.html">MGUI</a>
+			<a class="u-type" href="http://www.mgtv.com" target="_blank"><i></i>MGTV</a>
+		</h1>
+		<!-- <div class="m-author">
+			<a class="u-version" href="./log.html">Ver 1.0</a>
+			<a class="u-gitlab" href="http://git.hunantv.com/honey-lab/MgtvUI" target="_blank">Gitlab</a>
+		</div> -->
+		<div class="m-menu">
+			<ul>
+				<li>
+					<a class="m-menu-item" href="/index.html">快速开始</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/index.html">获取与使用</a></li>
+						<li><a class="m-submenu-item" href="/log.html">更新日志</a></li>
+					</ul>
+				</li>
+				<li class="">
+					<a class="m-menu-item" href="/global.html">基础组件</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/global.html">全局变量</a></li>
+						<li><a class="m-submenu-item" href="/ui.html">基础元件</a></li>
+					</ul>
+				</li>
+				<li class="disabled">
+					<a class="m-menu-item" href="/widget.html">界面组件</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/widget.html">界面组件</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="m-menu-item" href="/vi.html">图标库</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/vi.html">品牌形象</a></li>
+						<li><a class="m-submenu-item" href="/icon.html">界面通用</a></li>
+						<li class="disabled"><a class="m-submenu-item" href="/iconfont.html">IconFont</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="m-menu-item" href="/mark.html">角标库</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/mark.html">通用角标</a></li>
+					</ul>
+				</li>
+				<li class="disabled">
+					<a class="m-menu-item" href="">JS插件库</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="m-submenu-bg"></div>
+</div>
+<script>
+	var pathname = location.pathname;
+	$('.m-submenu-item, m-menu-item').map(function(index, item){
+		var $item = $(this);
+		if($item.attr('href') == pathname) {
+			$item.parents('li').addClass('on');
+		}
+	})
+</script>

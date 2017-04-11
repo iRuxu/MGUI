@@ -1,0 +1,43 @@
+{{import "module/head"}}
+{{import "module/header"}}
+
+<div class="m-sidebar">
+	<ul class="m-sdlist">
+		<li><a href="#vi-logo" title="Logo">Logo<!-- <img style="width:20px;" src="{{global.__img}}icon/ie.svg" alt=""> --></a></li>
+		<li><a href="#vi-mango" title="吉祥物">吉祥物<!-- <img style="width:20px;" src="{{global.__img}}icon/mask2.svg" alt=""> --></a></li>
+	</ul>
+	<div class="m-usage">
+		<code>@import "@{mgui}/vi.less";</code>
+		<p class="m-tips">品牌形象logo、吉祥物等</p>
+
+		<div class="m-guide m-usage-sub">
+			<h3><i></i>使用指南</h3>
+			<h4><b>+</b> 变量使用方式：</h4>
+			<p>在less文件中将变量值赋值给对应的class。</p>
+			<code class="u-code">.txtclass{color:@mg-color;}</code>
+			<h4><b>+</b> 类名使用方式：</h4>
+			<p>将对应html元素添加指定的类名，则获得对应的效果。</p>
+			<input class="u-code" type="text" value='<p class="mg-fz-24">text</p>'>
+			<p>自该元素将拥有font-size:26px的样式。</p>
+		</div>
+		<div class="m-changelog m-usage-sub">
+			<h3><i></i>Change Log</h3>
+			<p><em>2017.4.12</em>初始化、提交JIRA需求</p>
+		</div>
+	</div>
+</div>
+<div class="m-content">
+	<div class="m-ex" id="ui-blank">
+		<div class="m-title">
+			<h2>Logo</h2>
+			<span>品牌标识</span>
+		</div>
+	</div>
+	<div class="m-ex" id="ui-alpha">
+		<div class="m-title">
+			<h2>吉祥物</h2>
+			<span>新版芒果小人</span>
+		</div>
+	</div>
+</div>
+{{import "module/footer"}}
