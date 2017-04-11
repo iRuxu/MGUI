@@ -1,13 +1,86 @@
-{{import "module/head"}}
-{{import "module/header"}}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>MGUI - 芒果TV规范化界面组件库</title>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimal-ui">
+<link rel="shortcut icon" href="http://www.hunantv.com/favicon.ico?" type="image/x-icon">
+<link rel="stylesheet" href="css/common.css?" type="text/css">
+<link rel="stylesheet" href="css/monokai.css?" type="text/css">
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js?"></script>
+<script src="js/rainbow.min.js?"></script>
+<script src="js/mgui.js?"></script>
+</head>
+<body>
+<div class="m-top">
+	<div class="m-rainbow"></div>
+	<div class="m-header">
+		<h1 class="m-logo">
+			<a class="u-name" href="./index.html">MGUI</a>
+			<a class="u-type" href="http://www.mgtv.com" target="_blank"><i></i>MGTV</a>
+		</h1>
+		<!-- <div class="m-author">
+			<a class="u-version" href="./log.html">Ver 1.0</a>
+			<a class="u-gitlab" href="http://git.hunantv.com/honey-lab/MgtvUI" target="_blank">Gitlab</a>
+		</div> -->
+		<div class="m-menu">
+			<ul>
+				<li>
+					<a class="m-menu-item" href="/index.html">快速开始</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/index.html">获取与使用</a></li>
+						<li><a class="m-submenu-item" href="/log.html">更新日志</a></li>
+					</ul>
+				</li>
+				<li class="">
+					<a class="m-menu-item" href="/global.html">基础组件</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/global.html">全局变量</a></li>
+						<li><a class="m-submenu-item" href="/ui.html">基础元件</a></li>
+					</ul>
+				</li>
+				<li class="disabled">
+					<a class="m-menu-item" href="/widget.html">界面组件</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/widget.html">界面组件</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="m-menu-item" href="/vi.html">图标库</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/vi.html">品牌形象</a></li>
+						<li><a class="m-submenu-item" href="/icon.html">界面通用</a></li>
+						<li class="disabled"><a class="m-submenu-item" href="/iconfont.html">IconFont</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="m-menu-item" href="/mark.html">角标库</a>
+					<ul class="m-submenu">
+						<li><a class="m-submenu-item" href="/mark.html">通用角标</a></li>
+					</ul>
+				</li>
+				<li class="disabled">
+					<a class="m-menu-item" href="">JS插件库</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="m-submenu-bg"></div>
+</div>
+<script>var pathname=location.pathname;$(".m-submenu-item, m-menu-item").map(function(a,t){var m=$(this);m.attr("href")==pathname&&m.parents("li").addClass("on")});</script>
 
 <div class="m-sidebar">
 	<ul class="m-sdlist">
-		<li><a href="#global-color" title="配色"><img style="width:22px;" src="{{global.__img}}icon/pantone.svg" alt=""></a></li>
-		<li><a href="#global-fontsize" title="字号"><img src="{{global.__img}}icon/font-size.svg" alt=""></a></li>
-		<li><a href="#global-fontfamily" title="字体"><img style="width:16px;" src="{{global.__img}}icon/font-family.svg" alt=""></a></li>
-		<li><a href="#global-size" title="尺寸"><img style="width:19px;" src="{{global.__img}}icon/ruler.svg" alt=""></a></li>
-		<li><a href="#global-zindex" title="Z-index"><img style="width:22px;" src="{{global.__img}}icon/stack.svg" alt=""></a></li>
+		<li><a href="#global-color" title="配色"><img style="width:22px;" src="http://img.hunantv.com/MGUI/icon/pantone.svg?" alt=""></a></li>
+		<li><a href="#global-fontsize" title="字号"><img src="http://img.hunantv.com/MGUI/icon/font-size.svg?" alt=""></a></li>
+		<li><a href="#global-fontfamily" title="字体"><img style="width:16px;" src="http://img.hunantv.com/MGUI/icon/font-family.svg?" alt=""></a></li>
+		<li><a href="#global-size" title="尺寸"><img style="width:19px;" src="http://img.hunantv.com/MGUI/icon/ruler.svg?" alt=""></a></li>
+		<li><a href="#global-zindex" title="Z-index"><img style="width:22px;" src="http://img.hunantv.com/MGUI/icon/stack.svg?" alt=""></a></li>
 	</ul>
 	<div class="m-usage">
 		<code>@import "@{mgui}/global.less";</code>
@@ -20,7 +93,7 @@
 			<code class="u-code">.txtclass{color:@mg-color;}</code>
 			<h4><b>+</b> 类名使用方式：</h4>
 			<p>将对应html元素添加指定的类名，则获得对应的效果。</p>
-			<input class="u-code" type="text" value='<p class="mg-fz-24">text</p>'>
+			<input class="u-code" type="text" value="<p class="mg-fz-24">text</p>">
 			<p>自该元素将拥有font-size:26px的样式。</p>
 		</div>
 		<div class="m-changelog m-usage-sub">
@@ -33,7 +106,7 @@
 </div>
 <div class="m-content">
 	<div class="m-ex" id="global-color">
-		<div class="m-title" >
+		<div class="m-title">
 			<h2>配色</h2>
 			<span>应用于全站的VI基色</span>
 		</div>
@@ -98,7 +171,7 @@
 	</div>
 
 	<div class="m-ex" id="global-fontsize">
-		<div class="m-title" >
+		<div class="m-title">
 			<h2>字号</h2>
 			<span>全站规范字号</span>
 		</div>
@@ -163,7 +236,7 @@
 	</div>
 
 	<div class="m-ex" id="global-fontfamily">
-		<div class="m-title" >
+		<div class="m-title">
 			<h2>字体</h2>
 			<span>全站常用字体使用场景</span>
 		</div>
@@ -214,7 +287,7 @@
 	</div>
 
 	<div class="m-ex" id="global-size">
-		<div class="m-title" >
+		<div class="m-title">
 			<h2>尺寸</h2>
 			<span>公共模块影响全站的尺寸</span>
 		</div>
@@ -276,4 +349,5 @@
 		</table>
 	</div>
 </div>
-{{import "module/footer"}}
+</body>
+</html>
