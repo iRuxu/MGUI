@@ -258,61 +258,61 @@ em {
 /*尺寸*/
 /*Z-INDEX*/
 .mg-al-blank {
-  background: url('http://mgui.iruxu.com/images/ui/blank.gif') repeat 0 0;
+  background: url('/images/ui/blank.gif') repeat 0 0;
 }
 .mg-al-b90 {
-  background: url('http://mgui.iruxu.com/images/ui/b-90.png') repeat 0 0;
+  background: url('/images/ui/b-90.png') repeat 0 0;
 }
 .mg-al-b80 {
-  background: url('http://mgui.iruxu.com/images/ui/b-80.png') repeat 0 0;
+  background: url('/images/ui/b-80.png') repeat 0 0;
 }
 .mg-al-b70 {
-  background: url('http://mgui.iruxu.com/images/ui/b-70.png') repeat 0 0;
+  background: url('/images/ui/b-70.png') repeat 0 0;
 }
 .mg-al-b60 {
-  background: url('http://mgui.iruxu.com/images/ui/b-60.png') repeat 0 0;
+  background: url('/images/ui/b-60.png') repeat 0 0;
 }
 .mg-al-b50 {
-  background: url('http://mgui.iruxu.com/images/ui/b-50.png') repeat 0 0;
+  background: url('/images/ui/b-50.png') repeat 0 0;
 }
 .mg-al-b40 {
-  background: url('http://mgui.iruxu.com/images/ui/b-40.png') repeat 0 0;
+  background: url('/images/ui/b-40.png') repeat 0 0;
 }
 .mg-al-b30 {
-  background: url('http://mgui.iruxu.com/images/ui/b-30.png') repeat 0 0;
+  background: url('/images/ui/b-30.png') repeat 0 0;
 }
 .mg-al-b20 {
-  background: url('http://mgui.iruxu.com/images/ui/b-20.png') repeat 0 0;
+  background: url('/images/ui/b-20.png') repeat 0 0;
 }
 .mg-al-b10 {
-  background: url('http://mgui.iruxu.com/images/ui/b-10.png') repeat 0 0;
+  background: url('/images/ui/b-10.png') repeat 0 0;
 }
 .mg-al-w90 {
-  background: url('http://mgui.iruxu.com/images/ui/w-90.png') repeat 0 0;
+  background: url('/images/ui/w-90.png') repeat 0 0;
 }
 .mg-al-w80 {
-  background: url('http://mgui.iruxu.com/images/ui/w-80.png') repeat 0 0;
+  background: url('/images/ui/w-80.png') repeat 0 0;
 }
 .mg-al-w70 {
-  background: url('http://mgui.iruxu.com/images/ui/w-70.png') repeat 0 0;
+  background: url('/images/ui/w-70.png') repeat 0 0;
 }
 .mg-al-w60 {
-  background: url('http://mgui.iruxu.com/images/ui/w-60.png') repeat 0 0;
+  background: url('/images/ui/w-60.png') repeat 0 0;
 }
 .mg-al-w50 {
-  background: url('http://mgui.iruxu.com/images/ui/w-50.png') repeat 0 0;
+  background: url('/images/ui/w-50.png') repeat 0 0;
 }
 .mg-al-w40 {
-  background: url('http://mgui.iruxu.com/images/ui/w-40.png') repeat 0 0;
+  background: url('/images/ui/w-40.png') repeat 0 0;
 }
 .mg-al-w30 {
-  background: url('http://mgui.iruxu.com/images/ui/w-30.png') repeat 0 0;
+  background: url('/images/ui/w-30.png') repeat 0 0;
 }
 .mg-al-w20 {
-  background: url('http://mgui.iruxu.com/images/ui/w-20.png') repeat 0 0;
+  background: url('/images/ui/w-20.png') repeat 0 0;
 }
 .mg-al-w10 {
-  background: url('http://mgui.iruxu.com/images/ui/w-10.png') repeat 0 0;
+  background: url('/images/ui/w-10.png') repeat 0 0;
 }
 body {
   color: #444;
@@ -364,7 +364,7 @@ body {
   }
 }
 .m-rainbow {
-  background: url('http://mgui.iruxu.com/images/common/rainbow.png') repeat 0 0;
+  background: url('/images/common/rainbow.png') repeat 0 0;
   height: 5px;
   -webkit-animation: rainbowloading 0.38s ease-in-out forwards;
           animation: rainbowloading 0.38s ease-in-out forwards;
@@ -468,7 +468,7 @@ body {
   vertical-align: -4px;
   width: 17px;
   height: 17px;
-  background: url('http://mgui.iruxu.com/images/common/logo.png') no-repeat center center;
+  background: url('/images/common/logo.png') no-repeat center center;
   background-size: auto 80%;
 }
 .m-menu {
@@ -715,7 +715,7 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 5px;
-  background: url('http://mgui.iruxu.com/images/common/usage.png') no-repeat 0 0;
+  background: url('/images/common/usage.png') no-repeat 0 0;
 }
 .m-usage .m-usage-sub h4 {
   font-size: 12px;
