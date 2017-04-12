@@ -1,9 +1,0 @@
-Time: Tue Apr 11 2017 19:06:57 GMT+0800 (中国标准时间)
- Hostname: Yuan-PC
- OS: Windows_NT
- OS Version: 10.0.14393
- UUID: undefined
- Version: 0.2.6
-
- Options:
- {"env":"production","workbench":"c:\\iMgotv\\MGUI","buildMode":true,"version":"0.2.6","language":"en","original":{},"debug":false,"mergeLocalConfig":true,"identity":".silky","globalSilkyIdentityDir":"C:\\Users\\Yuan\\.silky","output":"c:\\iMgotv\\MGUI\\build"}

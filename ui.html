@@ -2,19 +2,19 @@
 <html lang="zh-CN">
 <head>
 <title>MGUI - 芒果TV规范化界面组件库</title>
-<meta charset="utf-8">
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="renderer" content="webkit">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimal-ui">
-<link rel="shortcut icon" href="http://www.hunantv.com/favicon.ico?" type="image/x-icon">
-<link rel="stylesheet" href="css/common.css?" type="text/css">
-<link rel="stylesheet" href="css/monokai.css?" type="text/css">
-<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js?"></script>
-<script src="js/rainbow.min.js?"></script>
-<script src="js/mgui.js?"></script>
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimal-ui"/>
+<link rel="shortcut icon" href="http://www.hunantv.com/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/css/common.css" type="text/css"/>
+<link rel="stylesheet" href="/css/monokai.css" type="text/css"/>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/rainbow.min.js"></script>
+<script src="/js/mgui.js"></script>
 </head>
 <body>
 <div class="m-top">
@@ -34,7 +34,7 @@
 					<a class="m-menu-item" href="/index.html">快速开始</a>
 					<ul class="m-submenu">
 						<li><a class="m-submenu-item" href="/index.html">获取与使用</a></li>
-						<li><a class="m-submenu-item" href="/log.html">更新日志</a></li>
+						<!-- <li><a class="m-submenu-item" href="/log.html">更新日志</a></li> -->
 					</ul>
 				</li>
 				<li class="">
@@ -44,10 +44,10 @@
 						<li><a class="m-submenu-item" href="/ui.html">基础元件</a></li>
 					</ul>
 				</li>
-				<li class="disabled">
-					<a class="m-menu-item" href="/widget.html">界面组件</a>
+				<li>
+					<a class="m-menu-item" href="/mark.html">角标库</a>
 					<ul class="m-submenu">
-						<li><a class="m-submenu-item" href="/widget.html">界面组件</a></li>
+						<li><a class="m-submenu-item" href="/mark.html">视频角标</a></li>
 					</ul>
 				</li>
 				<li>
@@ -58,10 +58,10 @@
 						<li class="disabled"><a class="m-submenu-item" href="/iconfont.html">IconFont</a></li>
 					</ul>
 				</li>
-				<li>
-					<a class="m-menu-item" href="/mark.html">角标库</a>
+				<li class="disabled">
+					<a class="m-menu-item" href="/widget.html">界面组件</a>
 					<ul class="m-submenu">
-						<li><a class="m-submenu-item" href="/mark.html">通用角标</a></li>
+						<li><a class="m-submenu-item" href="/widget.html">界面组件</a></li>
 					</ul>
 				</li>
 				<li class="disabled">
@@ -72,15 +72,23 @@
 	</div>
 	<div class="m-submenu-bg"></div>
 </div>
-<script>var pathname=location.pathname;$(".m-submenu-item, m-menu-item").map(function(a,t){var m=$(this);m.attr("href")==pathname&&m.parents("li").addClass("on")});</script>
+<script>
+	var pathname = location.pathname;
+	$('.m-submenu-item, m-menu-item').map(function(index, item){
+		var $item = $(this);
+		if($item.attr('href') == pathname) {
+			$item.parents('li').addClass('on');
+		}
+	})
+</script>
 
 <div class="m-sidebar">
 	<ul class="m-sdlist">
-		<li><a href="#ui-blank" title="透明占位图"><img style="width:20px;" src="http://img.hunantv.com/MGUI/icon/ie.svg?" alt=""></a></li>
-		<li><a href="#ui-alpha" title="半透明黑色背景图"><img style="width:20px;" src="http://img.hunantv.com/MGUI/icon/mask2.svg?" alt=""></a></li>
-		<li><a href="" title="输入框"><img style="width:20px;" src="http://img.hunantv.com/MGUI/icon/input.svg?" alt=""></a></li>
-		<li><a href="" title="按钮"><img style="width:20px;" src="http://img.hunantv.com/MGUI/icon/button.svg?" alt=""></a></li>
-		<li><a href="" title="表格"><img style="width:20px;" src="http://img.hunantv.com/MGUI/icon/table2.svg?" alt=""></a></li>
+		<li><a href="#ui-blank" title="透明占位图"><img style="width:20px;" src="http://mgui.iruxu.com/images/sidebar/ie.svg" alt=""></a></li>
+		<li><a href="#ui-alpha" title="半透明黑色背景图"><img style="width:20px;" src="http://mgui.iruxu.com/images/sidebar/mask2.svg" alt=""></a></li>
+		<li><a href="" title="输入框"><img style="width:20px;"  src="http://mgui.iruxu.com/images/sidebar/input.svg" alt=""></a></li>
+		<li><a href="" title="按钮"><img style="width:20px;"  src="http://mgui.iruxu.com/images/sidebar/button.svg" alt=""></a></li>
+		<li><a href="" title="表格"><img style="width:20px;"  src="http://mgui.iruxu.com/images/sidebar/table2.svg" alt=""></a></li>
 	</ul>
 	<div class="m-usage">
 		<code>@import "@{mgui}/ui.less";</code>
@@ -89,7 +97,7 @@
 		<div class="m-guide m-usage-sub">
 			<h3><i></i>使用指南</h3>
 			<p>将对应html元素添加指定的类名，则获得对应的效果。</p>
-			<input class="u-code" type="text" value='<div class="mg-al-b80">mask</div>'>
+			<input class="u-code" type="text" value="<div class='mg-al-b80'>mask</div>">
 			<p>自该元素将拥有80%黑色半透明背景图平铺的样式。</p>
 		</div>
 		<div class="m-changelog m-usage-sub">

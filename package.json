@@ -1,0 +1,44 @@
+{
+  "name": "MGUI",
+  "version": "1.0",
+  "dependencies": {},
+  "silky-version": "2.2.8",
+  "silky-plugin": {
+    "sp-hbs": {
+      "data-config": "hbs.config.js"
+    },
+    "sp-less": {
+      "global": [
+        "global.less"
+      ],
+      "ignore": [
+      ],
+      "options": {
+        "paths": [
+          "css"
+        ]
+      }
+    },
+    "sp-autoprefixer": {}
+  },
+  "silky": {
+    "port": 14422,
+    "index": "index.html",
+    "autoindex": true
+  },
+  "silky-pubPath": "node_modules",
+  "silky-build": {
+    "outdir": "./build",
+    "ignore": [
+      "node_modules",
+      "(\\/\\.[^/]+)$",
+      "module"
+    ]
+  },
+  "main": "mgui.less",
+  "devDependencies": {
+    "sp-autoprefixer": "1.0.4",
+    "sp-hbs": "1.1.1",
+    "sp-less": "1.3.0"
+  }
+}
