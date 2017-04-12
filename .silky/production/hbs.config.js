@@ -1,5 +1,5 @@
 module.exports = {
     global: {
-        "__pub": "/images/"
+        "__img": "http://mgui.iruxu.com/images/"
     }
 }

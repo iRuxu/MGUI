@@ -5,13 +5,13 @@
   "silky-version": "2.2.8",
   "silky-plugin": {
     "sp-hbs": {
-      "data-config":"hbs.config.js",
-      "root":"/template"
+      "data-config": "hbs.config.js"
     },
     "sp-less": {
-      "global": ["global.less"],
-       "ignore": [
-        "(css/module/)"
+      "global": [
+        "global.less"
+      ],
+      "ignore": [
       ],
       "options": {
         "paths": [
@@ -31,7 +31,8 @@
     "outdir": "./build",
     "ignore": [
       "node_modules",
-      "(\\/\\.[^/]+)$"
+      "(\\/\\.[^/]+)$",
+      "module"
     ]
   },
   "main": "mgui.less",
