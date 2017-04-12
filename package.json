@@ -1,5 +1,43 @@
 {
-  "name":"mgui",
-  "version": "0.0.1",
-  "main":"mgui.less"
+  "name": "MGUI",
+  "version": "1.0",
+  "dependencies": {},
+  "silky-version": "2.2.8",
+  "silky-plugin": {
+    "sp-hbs": {
+      "data-config":"hbs.config.js",
+      "root":"/template"
+    },
+    "sp-less": {
+      "global": ["global.less"],
+       "ignore": [
+        "(css/module/)"
+      ],
+      "options": {
+        "paths": [
+          "css"
+        ]
+      }
+    },
+    "sp-autoprefixer": {}
+  },
+  "silky": {
+    "port": 14422,
+    "index": "index.html",
+    "autoindex": true
+  },
+  "silky-pubPath": "node_modules",
+  "silky-build": {
+    "outdir": "./build",
+    "ignore": [
+      "node_modules",
+      "(\\/\\.[^/]+)$"
+    ]
+  },
+  "main": "mgui.less",
+  "devDependencies": {
+    "sp-autoprefixer": "1.0.4",
+    "sp-hbs": "1.1.1",
+    "sp-less": "1.3.0"
+  }
 }
