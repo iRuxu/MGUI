@@ -1,0 +1,127 @@
+/*颜色*/
+.mg-color-base {
+  color: #FF5F00;
+}
+.mg-color-hover {
+  color: #FF7624;
+}
+.mg-color-title {
+  color: #333;
+}
+.mg-color {
+  color: #666;
+}
+.mg-color-desc {
+  color: #999;
+}
+.mg-color-border {
+  color: #ddd;
+}
+.mg-color-bg {
+  color: #f1f1f1;
+}
+/*字号*/
+.mg-fz-26 {
+  font-size: 26px;
+}
+.mg-fz-24 {
+  font-size: 24px;
+}
+.mg-fz-22 {
+  font-size: 22px;
+}
+.mg-fz-18 {
+  font-size: 18px;
+}
+.mg-fz-16 {
+  font-size: 16px;
+}
+.mg-fz-14 {
+  font-size: 14px;
+}
+.mg-fz-12 {
+  font-size: 12px;
+}
+/*字体*/
+.mg-fm-default {
+  font-family: PingFangSC-Regular, Tahoma, "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", Helvetica, sans-serif;
+}
+.mg-fm-digital {
+  font-family: Arial, Tahoma, Helvetica, sans-serif;
+}
+.mg-fm-roman {
+  font-family: "Times New Roman", "Georgia", Helvetica, sans-serif;
+}
+.mg-fm-st {
+  font-family: PingFangSC-Regular, "\5B8B\4F53", Helvetica, sans-serif;
+}
+.mg-fm-code {
+  font-family: Consolas, Monaco, "Lucida Console", "Courier New", "Lucida Sans Typewriter";
+}
+/*尺寸*/
+/*Z-INDEX*/
+.mg-al-blank {
+  background: url('/images/ui/blank.gif') repeat 0 0;
+}
+.mg-al-b90 {
+  background: url('/images/ui/b-90.png') repeat 0 0;
+}
+.mg-al-b80 {
+  background: url('/images/ui/b-80.png') repeat 0 0;
+}
+.mg-al-b70 {
+  background: url('/images/ui/b-70.png') repeat 0 0;
+}
+.mg-al-b60 {
+  background: url('/images/ui/b-60.png') repeat 0 0;
+}
+.mg-al-b50 {
+  background: url('/images/ui/b-50.png') repeat 0 0;
+}
+.mg-al-b40 {
+  background: url('/images/ui/b-40.png') repeat 0 0;
+}
+.mg-al-b30 {
+  background: url('/images/ui/b-30.png') repeat 0 0;
+}
+.mg-al-b20 {
+  background: url('/images/ui/b-20.png') repeat 0 0;
+}
+.mg-al-b10 {
+  background: url('/images/ui/b-10.png') repeat 0 0;
+}
+.mg-al-w90 {
+  background: url('/images/ui/w-90.png') repeat 0 0;
+}
+.mg-al-w80 {
+  background: url('/images/ui/w-80.png') repeat 0 0;
+}
+.mg-al-w70 {
+  background: url('/images/ui/w-70.png') repeat 0 0;
+}
+.mg-al-w60 {
+  background: url('/images/ui/w-60.png') repeat 0 0;
+}
+.mg-al-w50 {
+  background: url('/images/ui/w-50.png') repeat 0 0;
+}
+.mg-al-w40 {
+  background: url('/images/ui/w-40.png') repeat 0 0;
+}
+.mg-al-w30 {
+  background: url('/images/ui/w-30.png') repeat 0 0;
+}
+.mg-al-w20 {
+  background: url('/images/ui/w-20.png') repeat 0 0;
+}
+.mg-al-w10 {
+  background: url('/images/ui/w-10.png') repeat 0 0;
+}
+.i-mark-video {
+  display: block;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 22px;
+  height: 22px;
+  color: #fff;
+}

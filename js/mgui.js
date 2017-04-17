@@ -1,7 +1,4 @@
 jQuery(function($){
-	var $sd_item = $(".m-sdlist li")
-	$sd_item.on('click',function(){
-		$sd_item.removeClass('on')
-		$(this).addClass('on')
-	})
+	var pathname=location.pathname;
+	"/"!=pathname&&($(".m-menu li, .m-submenu li").removeClass("on"),$(".m-submenu-item, .m-menu-item").map(function(a,m){var e=$(this);e.attr("href")==pathname&&e.parents("li").addClass("on")}));
 });
