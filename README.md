@@ -5,7 +5,7 @@
 更新日志见手册：<http://mgui.iruxu.com/global.html>
 以下均为基于新版Silky（SR）下的使用方法
 
-##方法一：指定引入
+## 方法一：指定引入
 1.打开项目package.json，在“devDependencies”键中添加(版本号请酌情修改)：
 ```javascript
 "mgui": "1.0.0",
@@ -24,7 +24,7 @@ sr install mgui
 //修改对应名称即可，可参见手册侧边栏
 ```
 
-##方法二：全局引入
+## 方法二：全局引入
 1.打开项目package.json，在“devDependencies”键中添加(版本号请酌情修改)：
 ```javascript
 "mgui": "1.0.0",
